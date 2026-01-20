@@ -39,7 +39,7 @@ const Navbar = () => {
 
             {/* Contact Button */}
             <NavLink
-              to="/contact"
+              to="/contacts"
               className="
       text-[14px] font-medium !text-white
       bg-[#133475]
@@ -161,7 +161,7 @@ const Navbar = () => {
               Projects
             </Link>
             <Link
-              to="/contact"
+              to="/contacts"
               className="block py-4 px-4 mt-3 bg-blue-700 text-white rounded-md text-center font-medium hover:bg-blue-800 transition-colors"
               onClick={() => setIsOpen(false)}
             >

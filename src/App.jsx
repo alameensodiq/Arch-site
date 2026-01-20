@@ -18,6 +18,9 @@ const LazyProjectPage = React.lazy(
 const LazyServicePage = React.lazy(
   () => import("./Components/Services/Service")
 );
+const LazyContactPage = React.lazy(
+  () => import("./Components/Contact/Contact")
+);
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -44,6 +47,14 @@ const router = createBrowserRouter(
         element={
           <React.Suspense fallback={<Loader />}>
             <LazyServicePage />
+          </React.Suspense>
+        }
+      />
+      <Route
+        path="/contacts"
+        element={
+          <React.Suspense fallback={<Loader />}>
+            <LazyContactPage />
           </React.Suspense>
         }
       />
