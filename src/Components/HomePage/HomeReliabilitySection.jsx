@@ -8,6 +8,8 @@ const HomeReliabilitySection = () => {
       <img
         src={Reliability}
         className="absolute hidden md:block lg:h-auto left-20  bottom-20 z-10"
+        loading="lazy"
+        decoding="async"
       />
       <div className="flex flex-col items-start gap-6">
         <div className="flex flex-col items-start gap-4">

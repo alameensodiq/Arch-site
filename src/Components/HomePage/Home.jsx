@@ -32,7 +32,12 @@ const Home = () => {
             our clients’ objectives.
           </span>
         </div>
-        <img src={homehouse} className="w-full h-full object-cover" />
+        <img
+          src={homehouse}
+          className="w-full h-full object-cover"
+          loading="lazy"
+          decoding="async"
+        />
       </div>
       <div className="px-18 py-20 flex flex-col gap-20">
         <div className="flex flex-col items-start justify-start text-left gap-2 h-[25vh]">
@@ -64,13 +69,28 @@ const Home = () => {
         </div>
         <div className="flex flex-col md:flex-row gap-4">
           <div className="w-full md:w-[33%]">
-            <img src={cardone} className="w-full h-full object-cover" />
+            <img
+              src={cardone}
+              className="w-full h-full object-cover"
+              loading="lazy"
+              decoding="async"
+            />
           </div>
           <div className="w-full md:w-[33%]">
-            <img src={cardtwo} className="w-full h-full object-cover" />
+            <img
+              src={cardtwo}
+              className="w-full h-full object-cover"
+              loading="lazy"
+              decoding="async"
+            />
           </div>
           <div className="w-full md:w-[33%]">
-            <img src={cardthree} className="w-full h-full object-cover" />
+            <img
+              src={cardthree}
+              className="w-full h-full object-cover"
+              loading="lazy"
+              decoding="async"
+            />
           </div>
         </div>
       </div>
@@ -156,6 +176,8 @@ const Home = () => {
             <img
               src={homeprojectone}
               className="w-full  h-[400px] object-cover"
+              loading="lazy"
+              decoding="async"
             />
             <div className="flex flex-col items-start gap-2">
               <span className="text-[#101828] text-[16px] md:text-[25px]">
@@ -171,6 +193,8 @@ const Home = () => {
             <img
               src={homeprojecttwo}
               className="w-full h-[400px] object-cover"
+              loading="lazy"
+              decoding="async"
             />
             <div className="flex flex-col items-start gap-2">
               <span className="text-[#101828] text-[16px] md:text-[25px]">
@@ -186,6 +210,8 @@ const Home = () => {
             <img
               src={homeprojectthree}
               className="w-full  h-[400px] object-cover"
+              loading="lazy"
+              decoding="async"
             />
             <div className="flex flex-col items-start gap-2">
               <span className="text-[#101828] text-[16px] md:text-[25px]">

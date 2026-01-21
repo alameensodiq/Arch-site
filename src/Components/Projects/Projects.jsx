@@ -47,12 +47,42 @@ const Projects = () => {
             outcomes for every project.
           </span>
         </div>
-        <img src={contentone} className="w-full h-full object-cover" />
-        <img src={contenttwo} className="w-full h-full object-cover" />
-        <img src={contentthree} className="w-full h-full object-cover" />
-        <img src={contentfour} className="w-full h-full object-cover" />
-        <img src={contentfive} className="w-full h-full object-cover" />
-        <img src={contentsix} className="w-full h-full object-cover" />
+        <img
+          src={contentone}
+          className="w-full h-full object-cover"
+          loading="lazy"
+          decoding="async"
+        />
+        <img
+          src={contenttwo}
+          className="w-full h-full object-cover"
+          loading="lazy"
+          decoding="async"
+        />
+        <img
+          src={contentthree}
+          className="w-full h-full object-cover"
+          loading="lazy"
+          decoding="async"
+        />
+        <img
+          src={contentfour}
+          className="w-full h-full object-cover"
+          loading="lazy"
+          decoding="async"
+        />
+        <img
+          src={contentfive}
+          className="w-full h-full object-cover"
+          loading="lazy"
+          decoding="async"
+        />
+        <img
+          src={contentsix}
+          className="w-full h-full object-cover"
+          loading="lazy"
+          decoding="async"
+        />
       </div>
       <TopFooter />
       <BottomFooter />

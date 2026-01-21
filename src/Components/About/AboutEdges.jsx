@@ -144,7 +144,7 @@ const AboutEdges = ({ title, listItems, pic, reverse }) => {
         </div>
       </div>
       <div className="md:w-[50%]">
-        <img src={Edges} />
+        <img src={Edges} loading="lazy" decoding="async" />
       </div>
     </div>
   );

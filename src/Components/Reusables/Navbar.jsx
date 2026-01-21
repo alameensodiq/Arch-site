@@ -11,7 +11,13 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:pl-8 lg:pr-1">
         <div className="flex justify-between items-center h-25">
           {/* Logo + Company Name */}
-          <img src={logo} alt="Arch & Build" className="h-16 w-auto" />
+          <img
+            src={logo}
+            alt="Arch & Build"
+            className="h-16 w-auto"
+            loading="lazy"
+            decoding="async"
+          />
 
           <div className="hidden md:flex items-center space-x-9">
             {[

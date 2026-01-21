@@ -18,7 +18,7 @@ const ServiceSections = ({ title, listItems, pic, reverse }) => {
         </ul>
       </div>
       <div className="md:w-[50%]">
-        <img src={pic} />
+        <img src={pic} loading="lazy" decoding="async" />
       </div>
     </div>
   );

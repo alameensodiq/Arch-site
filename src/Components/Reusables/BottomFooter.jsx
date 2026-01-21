@@ -6,7 +6,7 @@ const BottomFooter = () => {
   return (
     <div className="bg-[#060F23] flex flex-col justify-between py-15 px-18 w-full gap-30">
       <div className="flex flex-col md:flex-row gap-6 justify-between items-start w-full">
-        <img src={logo} className="w-[14%]" />
+        <img src={logo} className="w-[14%]" loading="lazy" decoding="async" />
         <div className="flex flex-col gap-5 items-start">
           <span className="text-[14px] text-[#FFFFFF] font-bold leading-5">
             Home

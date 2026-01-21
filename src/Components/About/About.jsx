@@ -84,13 +84,28 @@ const About = () => {
         </div>
         <div className="flex flex-col md:flex-row gap-4">
           <div className="w-full md:w-[33%]">
-            <img src={Teamone} className="w-full h-full object-cover" />
+            <img
+              src={Teamone}
+              className="w-full h-full object-cover"
+              loading="lazy"
+              decoding="async"
+            />
           </div>
           <div className="w-full md:w-[33%]">
-            <img src={Teamtwo} className="w-full h-full object-cover" />
+            <img
+              src={Teamtwo}
+              className="w-full h-full object-cover"
+              loading="lazy"
+              decoding="async"
+            />
           </div>
           <div className="w-full md:w-[33%]">
-            <img src={Teamthree} className="w-full h-full object-cover" />
+            <img
+              src={Teamthree}
+              className="w-full h-full object-cover"
+              loading="lazy"
+              decoding="async"
+            />
           </div>
         </div>
       </div>
