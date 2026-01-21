@@ -3,12 +3,12 @@ import BottomFooter from "../Reusables/BottomFooter";
 import TopFooter from "../Reusables/TopFooter";
 import Navbar from "../Reusables/Navbar";
 import ServiceHeader from "../Reusables/ServiceHeader";
-import contentone from "../../assets/contentone.png";
-import contenttwo from "../../assets/contenttwo.png";
-import contentthree from "../../assets/contentthree.png";
-import contentfour from "../../assets/contentfour.png";
-import contentfive from "../../assets/contentfive.png";
-import contentsix from "../../assets/contentsix.png";
+import contentone from "../../assets/Contentone.png";
+import contenttwo from "../../assets/Contenttwo.png";
+import contentthree from "../../assets/Contentthree.png";
+import contentfour from "../../assets/Contentfour.png";
+import contentfive from "../../assets/Contentfive.png";
+import contentsix from "../../assets/Contentsix.png";
 
 const Projects = () => {
   return (
