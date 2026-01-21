@@ -213,7 +213,7 @@ const BottomFooter = () => {
             </span>
           </div>
         </div>
-        <div className="py-6 flex flex-col items-end">
+        <div className="py-6 flex flex-col md:items-end items-start">
           <span className="text-[14px] text-white">
             © 2026 — Arch & Build Engineering Limited
           </span>

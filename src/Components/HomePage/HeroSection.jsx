@@ -24,17 +24,23 @@ const HeroSection = () => {
         className="relative z-20 flex flex-col justify-end h-full mx-auto 
   px-6 md:px-20 
   pt-200 sm:pt-32 md:pt-0 
-  w-full gap-10 pb-16"
+  w-full gap-4 pb-36"
       >
-        <div className="flex flex-col items-start gap-3">
-          <h1 className="text-[#FAFAFA] lg:w-[40%] lg:text-[50px] md:text-[25px] sm:text-[15px]">
+        <div className="flex flex-col items-start gap-5">
+          <h1 className="text-[#FAFAFA] lg:w-[40%] lg:text-[70px] md:text-[25px] sm:text-[15px]">
             Building Excellence. Engineering the Future.
           </h1>
-          <p className="text-[#FAFAFA] text-[15px] lg:w-[47%]">
-            Arch & Build Engineering Limited delivers innovative, reliable, and
-            professional engineering solutions across construction,
-            telecommunications, and oil & gas sectors.
-          </p>
+          <div className="flex flex-col items-start lg:w-[50%]">
+            <p className="text-[#FAFAFA] text-[15px]">
+              Arch & Build Engineering Limited delivers innovative, reliable,
+              and professional engineering
+            </p>
+            <p className="text-[#FAFAFA] text-[15px]">
+              {" "}
+              solutions across construction, telecommunications, and oil & gas
+              sectors.
+            </p>
+          </div>
         </div>
         <div className="flex flex-col gap-6 md:flex-row justify-between">
           <div className="flex flex-col md:flex-row gap-4 items-center">
