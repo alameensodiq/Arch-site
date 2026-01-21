@@ -1,7 +1,7 @@
 import React from "react";
 import InputText from "../Reusables/InputText";
 
-const ContactSection = ({ title, title2, listItems, pic, reverse }) => {
+const ContactSection = ({ title, title2, pic, reverse }) => {
   return (
     <div
       className={`flex flex-col md:flex-row ${
