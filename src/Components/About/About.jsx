@@ -8,14 +8,16 @@ import Teamthree from "../../assets/Teamthree.png";
 import AboutEdges from "./AboutEdges";
 import Reliability from "../../assets/AboutReliability.png";
 import Section from "../../assets/Section.png";
+import AboutExpertiseSection from "./AboutExpertiseSection";
+import CoreValues from "./CoreValues";
 
 const About = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
-      <div className="bg-[#133475] h-[70vh] flex flex-row items-start justify-between px-20 pt-30 pb-40 relative">
-        <div className="flex flex-col items-start justify-start text-left gap-6 h-[25vh]">
-          <div className="flex flex-row gap-2 items-center justify-center">
+      <div className="bg-[#133475] h-[70vh] flex flex-row items-start justify-between md:px-20 px-4 md:pt-30 pt-10 pb-40 relative">
+        <div className="flex flex-col items-start justify-start text-left md:gap-6 gap-2 md:h-[25vh] h-full">
+          <div className="flex flex-row gap-2 md:items-center items-start justify-center">
             <svg
               width="16"
               height="16"
@@ -50,6 +52,8 @@ const About = () => {
       <div>
         <img src={Section} className="h-auto" />
       </div>
+      <AboutExpertiseSection />
+      <CoreValues />
       <AboutEdges />
       <div className="px-18 py-20 flex flex-col gap-20">
         <div className="flex flex-col items-center justify-start text-center gap-2 h-[25vh]">
