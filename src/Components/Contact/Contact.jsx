@@ -21,7 +21,7 @@ const Contact = () => {
         title="Learn more about us today,"
         title2=" book a consultation"
       />
-      <div className="px-18 py-10 flex flex-col gap-10">
+      <div className="px-18 py-10 flex flex-col gap-10 bg-[#ffffff]">
         <div className="flex flex-col items-start gap-2">
           <span className="text-[16px] text-[#2163C0]">Contact us</span>
           <span className="text-[36px] text-[#101828]">
