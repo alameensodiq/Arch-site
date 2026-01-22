@@ -19,7 +19,7 @@ const Projects = () => {
         header="What We’ve Built"
         statement="Delivering excellence through carefully executed engineering and construction projects across Nigeria."
       />
-      <div className="px-18 py-15 flex flex-col gap-20">
+      <div className="px-18 py-15 flex flex-col gap-20 bg-[#ffffff]">
         <div className="flex flex-col items-start justify-start text-left gap-2 h-[25vh]">
           <div className="flex flex-row gap-2 items-center justify-center">
             <svg

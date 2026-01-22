@@ -17,7 +17,7 @@ const Service = () => {
         header="What we do"
         statement="Expertly delivered solutions across building construction, civil engineering, and telecommunications infrastructure."
       />
-      <div className="px-18 py-15 flex flex-col gap-20">
+      <div className="px-18 py-15 flex flex-col gap-20 bg-[#ffffff]">
         <div className="flex flex-col items-start justify-start text-left gap-2 h-[25vh]">
           <div className="flex flex-row gap-2 items-center justify-center">
             <svg

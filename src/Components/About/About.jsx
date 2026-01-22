@@ -55,7 +55,7 @@ const About = () => {
       <AboutExpertiseSection />
       <CoreValues />
       <AboutEdges />
-      <div className="px-18 py-20 flex flex-col gap-20">
+      <div className="px-18 py-20 flex flex-col gap-20 bg-[#ffffff]">
         <div className="flex flex-col items-center justify-start text-center gap-2 h-[25vh]">
           <div className="flex flex-row gap-2 items-center justify-center">
             <svg

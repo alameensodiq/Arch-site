@@ -4,7 +4,7 @@ import Reliability from "../../assets/Reliability.png";
 
 const AboutExpertiseSection = () => {
   return (
-    <div className="flex flex-col md:flex-row gap-3 justify-end items-center h-full md:h-[70vh] pt-15 pb-2 md:px-18 px-4 relative">
+    <div className="flex flex-col md:flex-row gap-3 justify-end items-center h-full md:h-[70vh] pt-15 pb-2 md:px-18 px-4 relative bg-[#ffffff]">
       <div className="md:w-[50%]">
         <div className="md:px-18 md:py-15 flex flex-col gap-20">
           <div className="flex flex-col items-start justify-start text-left gap-2">

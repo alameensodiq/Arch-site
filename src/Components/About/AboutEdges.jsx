@@ -4,7 +4,7 @@ import Edges from "../../assets/edges.png";
 const AboutEdges = ({ title, listItems, pic, reverse }) => {
   return (
     <div
-      className={`flex flex-col md:flex-row ${
+      className={`flex flex-col md:flex-row  bg-[#ffffff]${
         reverse ? "md:flex-row-reverse" : ""
       } md:px-20 md:py-30 gap-10 py-4 px-4`}
     >

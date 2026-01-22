@@ -19,7 +19,7 @@ const Home = () => {
       <Navbar />
       <HeroSection />
       <HomeReliabilitySection />
-      <div className="px-18 py-15 flex flex-col gap-11  md:h-[93vh]">
+      <div className="px-18 py-15 flex flex-col gap-11  md:h-[93vh] bg-[#ffffff]">
         <div className="flex flex-col md:flex-row justify-between items-start text-left gap-2">
           <span className="text-[#000000] text-[34px] md:w-[45%]">
             Your <span className="text-[#00AAE8]">Success</span> Is Our
@@ -39,7 +39,7 @@ const Home = () => {
           decoding="async"
         />
       </div>
-      <div className="px-18 py-20 flex flex-col gap-20">
+      <div className="px-18 py-20 flex flex-col gap-20 bg-[#ffffff]">
         <div className="flex flex-col items-start justify-start text-left gap-2 h-[25vh]">
           <div className="flex flex-row gap-2 items-center justify-center">
             <svg
@@ -143,7 +143,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="px-18 py-15 flex flex-col gap-20">
+      <div className="px-18 py-15 flex flex-col gap-20 bg-[#ffffff]">
         <div className="flex flex-col items-start justify-start text-left gap-2 h-[25vh]">
           <div className="flex flex-row gap-2 items-center justify-center">
             <svg
